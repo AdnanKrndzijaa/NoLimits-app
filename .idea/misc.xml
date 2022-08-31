@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/black_border.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/border.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/border_edittext.xml" value="0.1805" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/border_edittext_black.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/bottom_sheet_bg.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/dialog_bg.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/gradient_anim.xml" value="0.1" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/gradient_center.xml" value="0.1" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/gradient_end.xml" value="0.1" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/gradient_start.xml" value="0.1" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/green_border.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/inventory_logout_bg.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/logout_bg.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/red_border.xml" value="0.1805" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/drawable/white_border.xml" value="0.1655" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_aerobic_training.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_balance_stability_training.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_bmicalculator.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_coordination_agility_training.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_flexibility_mobility_training.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_food.xml" value="0.22" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_forgot_password_confirm.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_gain_mass.xml" value="0.2617753623188406" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_healthy_eating.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_login.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_login_registration.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_measures.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_page1.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_page2.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_page3.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_performance_nutrition.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_registration.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_selected_workout.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_settings.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_strength_training.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_workout.xml" value="0.33" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/activity_workout_list.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/bottom_sheet_login_reg.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/fragment_login_registration.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/layout_logout.xml" value="0.25" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/login_page.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/registration_page.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/workout_item.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/workout_list_item.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/layout/wotkout_list_item.xml" value="0.26875" />
+        <entry key="..\:/Users/xy/AndroidStudioProjects/NoLimits/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1655" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

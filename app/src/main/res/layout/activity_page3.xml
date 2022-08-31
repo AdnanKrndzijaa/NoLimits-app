@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_anim"
+    android:id="@+id/page3Layout"
+    tools:context=".splashscreen.Page3">
+
+    <ImageView
+        android:id="@+id/icon3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintBottom_toTopOf="@id/titleP3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/page3" />
+
+    <TextView
+        android:id="@+id/titleP3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Health is the new Wealth!"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/montserrat_extra_bold800"
+        android:textSize="28sp"
+        android:textColor="#fff"
+        app:layout_constraintTop_toBottomOf="@id/icon3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textP3"/>
+
+    <TextView
+        android:id="@+id/textP3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_medium500"
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="14sp"
+        android:text="Healthy people are happier, more satisfied, and enjoy their daily activities more. Indeed, the greatest wealth is health, and when you are healthy, you can achieve anything in life. Decide today to take matters into your own hands!"
+        android:textColor="#fff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleP3"
+        app:layout_constraintBottom_toTopOf="@id/skip3"/>
+
+    <TextView
+        android:id="@+id/skip3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/montserrat_medium500"
+        android:hint="Skip Now"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="14dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textP3"
+        app:layout_constraintTop_toBottomOf="@id/textP3"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/next3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_border"
+        android:clickable="true"
+        android:gravity="center"
+        android:fontFamily="@font/montserrat_medium500"
+        android:hint="Done"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="14dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintEnd_toEndOf="@id/textP3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintTop_toBottomOf="@id/textP3"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bmi"
+    android:background="@drawable/gradient_anim"
+    tools:context=".bmi.BMICalculator">
+
+    <TextView
+        android:id="@+id/titleBMI"
+        android:text="bmi."
+        android:textColor="#fff"
+        android:fontFamily="@font/montserrat_extra_bold800"
+        android:textSize="32sp"
+        android:layout_width="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ScrollView
+        android:id="@+id/pageScroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@id/fragmentMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleBMI"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="15dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:scaleType="centerCrop" />
+
+                <EditText
+                    android:id="@+id/weightInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="#000"
+                    android:fontFamily="@font/montserrat_medium500"
+                    android:hint="0"
+                    android:textColor="#000"
+                    android:textColorHint="#1E1E1E"
+                    android:inputType="numberDecimal"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat_bold700"
+                    android:text="WEIGHT"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/montserrat_light300"
+                    android:text="Please enter your weight in kilograms (kg)"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"
+                    android:scaleType="centerCrop" />
+
+                <EditText
+                    android:id="@+id/heightInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="#000"
+                    android:fontFamily="@font/montserrat_medium500"
+                    android:hint="0"
+                    android:textColor="#000"
+                    android:textColorHint="#1E1E1E"
+                    android:inputType="numberDecimal"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/montserrat_bold700"
+                    android:text="HEIGHT"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/montserrat_light300"
+                    android:text="Please enter your height in centimeters (cm)"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/calculateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:text="CALCULATE"
+                android:textColor="#fff"
+                android:fontFamily="@font/montserrat_medium500"
+                android:gravity="center"
+                android:background="@drawable/border"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ex5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="30dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bmiworkout2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/montserrat_bold700"
+                    android:text="Your BMI is"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/bmiValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="45dp"
+                    android:fontFamily="@font/montserrat_bold700"
+                    android:text="0.00"
+                    android:textColor="#1C1C1C"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/bmiType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#2B2B2B"
+                    android:fontFamily="@font/montserrat_bold700"
+                    android:text="Normal range (18.5 - 24.9)"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="@font/montserrat_medium500"
+                    android:text="BMI is a measurement of a person's leannes or corpulence based on their height and weight, and is intended to quantify tissue mass."
+                    android:textColor="#fff"
+                    android:textSize="13.5sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bmiInographic"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#fff"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/bmimedicalinographic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/montserrat_bold700"
+                android:text="Body Mass Index Values"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#838383"
+        app:layout_constraintBottom_toTopOf="@id/fragmentMenu"/>
+    <View
+        android:id="@+id/fragmentMenu"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#000">
+    </View>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@id/fragmentMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/fragmentMenu">
+
+        <LinearLayout
+            android:id="@+id/homeFragment"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/homew"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium500"
+                android:textSize="10sp"
+                android:text="Home"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/workoutFragment"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/workoutw"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Workout"
+                android:fontFamily="@font/montserrat_medium500"
+                android:textSize="10sp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/foodFragment"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/foodw"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food"
+                android:fontFamily="@font/montserrat_medium500"
+                android:textSize="10sp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/measuresFragment"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/measuresw"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Measures"
+                android:fontFamily="@font/montserrat_medium500"
+                android:textSize="10sp"
+                android:textColor="#fff"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bmiFragment"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:src="@drawable/calculatorr"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI"
+                android:fontFamily="@font/montserrat_medium500"
+                android:textSize="10sp"
+                android:textColor="#ff4d00"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
